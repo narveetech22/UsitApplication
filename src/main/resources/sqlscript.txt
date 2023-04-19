@@ -1,0 +1,7 @@
+insert into roles(rolename,addedby, createddate,updatedby,status,roleno) values('Super Admin',1,NOW(),0,'Active',1);
+
+insert into users(designation, email, fullname, password, pseudoname, status, role_roleid, createddate, experience,isactive)
+values('Super Admin', 'superadmin@gmail.com', 'Super Admin', 'e50d6be177584bacae5cfb1732091304', 'Super Admin', 'Active', 1,NOW(),0,0);
+
+username = superadmin@gmail.com
+password = Kiran123$

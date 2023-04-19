@@ -1,0 +1,312 @@
+2023-01-02 19:02:06,942 INFO  RecSubmissionController:57 -[] !!! inside class :RecSubmissionController, !! method : saveRequirement
+2023-01-02 19:02:10,730 INFO  RecSubmissionController:83 -[] !!! inside class :RecSubmissionController, !! method : getAllSubmission
+2023-01-02 19:02:52,164 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213 -[] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-01-02 19:02:52,183 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2023-01-02 19:02:52,184 INFO  DirectJDKLog:173 -[] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-02 19:02:52,194 WARN  DirectJDKLog:173 -[] The web application [usit] appears to have started a thread named [logback-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2023-01-02 19:02:52,196 WARN  DirectJDKLog:173 -[] The web application [usit] appears to have started a thread named [logback-2] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+ java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+ java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+ java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+2023-01-02 19:02:52,204 INFO  AbstractEntityManagerFactoryBean:651 -[] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:02:52,204 INFO  HikariDataSource:350 -[] HikariPool-45 - Shutdown initiated...
+2023-01-02 19:02:52,213 INFO  HikariDataSource:352 -[] HikariPool-45 - Shutdown completed.
+2023-01-02 19:02:52,324 INFO  UsitApplication:15 -[] UsitApplication.main()
+2023-01-02 19:02:52,342 INFO  StartupInfoLogger:55 -[] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 13304 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2023-01-02 19:02:52,342 INFO  SpringApplication:634 -[] No active profile set, falling back to 1 default profile: "default"
+2023-01-02 19:02:52,491 INFO  RepositoryConfigurationDelegate:132 -[] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 19:02:52,522 INFO  RepositoryConfigurationDelegate:201 -[] Finished Spring Data repository scanning in 31 ms. Found 22 JPA repository interfaces.
+2023-01-02 19:02:52,569 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8090 (http)
+2023-01-02 19:02:52,570 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2023-01-02 19:02:52,570 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-02 19:02:52,584 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2023-01-02 19:02:52,584 INFO  ServletWebServerApplicationContext:292 -[] Root WebApplicationContext: initialization completed in 240 ms
+2023-01-02 19:02:52,600 INFO  LogHelper:31 -[] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 19:02:52,603 INFO  HikariDataSource:110 -[] HikariPool-46 - Starting...
+2023-01-02 19:02:52,610 INFO  HikariDataSource:123 -[] HikariPool-46 - Start completed.
+2023-01-02 19:02:52,611 INFO  Dialect:175 -[] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 19:02:52,769 INFO  JtaPlatformInitiator:52 -[] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 19:02:52,769 INFO  AbstractEntityManagerFactoryBean:437 -[] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:02:53,043 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 -[] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 19:02:53,063 INFO  PropertySourcedRequestMappingHandlerMapping:69 -[] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-02 19:02:53,081 INFO  OptionalLiveReloadServer:59 -[] LiveReload server is running on port 35729
+2023-01-02 19:02:53,106 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8090 (http) with context path '/usit'
+2023-01-02 19:02:53,107 INFO  DocumentationPluginsBootstrapper:160 -[] Context refreshed
+2023-01-02 19:02:53,107 INFO  DocumentationPluginsBootstrapper:163 -[] Found 1 custom documentation plugin(s)
+2023-01-02 19:02:53,111 INFO  ApiListingReferenceScanner:41 -[] Scanning for api listing references
+2023-01-02 19:02:53,138 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getConsultalntByPageUsingGET_1
+2023-01-02 19:02:53,140 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_1
+2023-01-02 19:02:53,145 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteRequirmentByIDUsingDELETE_1
+2023-01-02 19:02:53,146 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: editRequirmentByIDUsingPOST_1
+2023-01-02 19:02:53,147 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRequirmentByIDUsingGET_1
+2023-01-02 19:02:53,147 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveRequirementUsingPOST_1
+2023-01-02 19:02:53,149 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_1
+2023-01-02 19:02:53,150 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_2
+2023-01-02 19:02:53,152 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_1
+2023-01-02 19:02:53,153 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadMultipleFile2UsingPOST_1
+2023-01-02 19:02:53,154 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_3
+2023-01-02 19:02:53,158 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_1
+2023-01-02 19:02:53,160 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_2
+2023-01-02 19:02:53,161 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_1
+2023-01-02 19:02:53,161 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_2
+2023-01-02 19:02:53,163 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_3
+2023-01-02 19:02:53,164 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_2
+2023-01-02 19:02:53,164 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_2
+2023-01-02 19:02:53,166 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: approveVMSUsingGET_1
+2023-01-02 19:02:53,167 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_4
+2023-01-02 19:02:53,167 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteUsingDELETE_1
+2023-01-02 19:02:53,168 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_3
+2023-01-02 19:02:53,168 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: gateallUsingGET_1
+2023-01-02 19:02:53,168 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getbyIdUsingGET_1
+2023-01-02 19:02:53,169 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveVendorUsingPOST_1
+2023-01-02 19:02:53,169 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_1
+2023-01-02 19:02:53,170 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_1
+2023-01-02 19:02:53,171 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_4
+2023-01-02 19:02:53,171 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_3
+2023-01-02 19:02:53,174 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_4
+2023-01-02 19:02:53,174 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: filterVMSUsingGET_1
+2023-01-02 19:02:53,175 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_5
+2023-01-02 19:02:53,176 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_2
+2023-01-02 19:02:53,178 INFO  StartupInfoLogger:61 -[] Started UsitApplication in 0.849 seconds (JVM running for 8865.031)
+2023-01-02 19:02:53,179 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged
+2023-01-02 19:03:14,885 INFO  DirectJDKLog:173 -[] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02 19:03:14,885 INFO  FrameworkServlet:525 -[] Initializing Servlet 'dispatcherServlet'
+2023-01-02 19:03:14,885 INFO  FrameworkServlet:547 -[] Completed initialization in 0 ms
+2023-01-02 19:03:14,886 INFO  UsersController:91 -[] UsersController.getAllRoles()
+2023-01-02 19:03:14,886 INFO  UsersController:245 -[] UsersController.getUserByid()
+2023-01-02 19:03:14,889 INFO  RoleServiceImpl:81 -[] RoleServiceImpl.getRoles()
+2023-01-02 19:03:14,890 INFO  UserServiceImpl:105 -[] UserServiceImpl.finduserById()
+2023-01-02 19:03:17,228 INFO  UsersController:187 -[] UsersController.updateUsers()
+2023-01-02 19:03:17,229 INFO  UserServiceImpl:93 -[] UserServiceImpl.findUserByEmailandUid()
+2023-01-02 19:03:17,231 INFO  UsersController:190 -[] UsersController.updateUsers() User updated
+2023-01-02 19:03:17,251 INFO  UsersController:206 -[] UsersController.getUsers()
+2023-01-02 19:03:17,252 INFO  UserServiceImpl:99 -[] UserServiceImpl.getAllUsers()
+2023-01-02 19:03:23,347 INFO  RequirmentsController:44 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:03:23,348 INFO  RecConsultantController:59 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:03:23,350 INFO  UsersController:80 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:03:23,352 INFO  RecSubmissionController:103 -[] !!! inside class :RecSubmissionController, !! method : getRequirmentByID
+2023-01-02 19:03:23,353 INFO  RecSubmissionImpl:44 -[] !!! inside class :RecSubmissionImpl, !! method : getSubmissionByID
+2023-01-02 19:03:26,432 INFO  RecSubmissionController:57 -[] !!! inside class :RecSubmissionController, !! method : saveRequirement
+2023-01-02 19:03:30,384 INFO  RecSubmissionController:83 -[] !!! inside class :RecSubmissionController, !! method : getAllSubmission
+2023-01-02 19:04:00,336 INFO  RequirmentsController:44 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:04:00,338 INFO  RecConsultantController:59 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:04:00,341 INFO  UsersController:80 -[] !!! inside class : RecRequirmentsController, !! method : getAllRequirments
+2023-01-02 19:04:00,350 INFO  RecSubmissionController:103 -[] !!! inside class :RecSubmissionController, !! method : getRequirmentByID
+2023-01-02 19:04:00,350 INFO  RecSubmissionImpl:44 -[] !!! inside class :RecSubmissionImpl, !! method : getSubmissionByID
+2023-01-02 19:04:24,084 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213 -[] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-01-02 19:04:24,104 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2023-01-02 19:04:24,104 INFO  DirectJDKLog:173 -[] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-02 19:04:24,121 INFO  AbstractEntityManagerFactoryBean:651 -[] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:04:24,121 INFO  HikariDataSource:350 -[] HikariPool-46 - Shutdown initiated...
+2023-01-02 19:04:24,125 INFO  HikariDataSource:352 -[] HikariPool-46 - Shutdown completed.
+2023-01-02 19:04:24,232 INFO  UsitApplication:15 -[] UsitApplication.main()
+2023-01-02 19:04:24,250 INFO  StartupInfoLogger:55 -[] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 13304 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2023-01-02 19:04:24,250 INFO  SpringApplication:634 -[] No active profile set, falling back to 1 default profile: "default"
+2023-01-02 19:04:24,407 INFO  RepositoryConfigurationDelegate:132 -[] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 19:04:24,440 INFO  RepositoryConfigurationDelegate:201 -[] Finished Spring Data repository scanning in 31 ms. Found 22 JPA repository interfaces.
+2023-01-02 19:04:24,484 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8090 (http)
+2023-01-02 19:04:24,485 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2023-01-02 19:04:24,485 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-02 19:04:24,500 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2023-01-02 19:04:24,500 INFO  ServletWebServerApplicationContext:292 -[] Root WebApplicationContext: initialization completed in 249 ms
+2023-01-02 19:04:24,519 INFO  LogHelper:31 -[] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 19:04:24,522 INFO  HikariDataSource:110 -[] HikariPool-47 - Starting...
+2023-01-02 19:04:24,530 INFO  HikariDataSource:123 -[] HikariPool-47 - Start completed.
+2023-01-02 19:04:24,530 INFO  Dialect:175 -[] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 19:04:24,714 INFO  JtaPlatformInitiator:52 -[] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 19:04:24,715 INFO  AbstractEntityManagerFactoryBean:437 -[] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:04:24,986 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 -[] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 19:04:25,001 INFO  PropertySourcedRequestMappingHandlerMapping:69 -[] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-02 19:04:25,017 INFO  OptionalLiveReloadServer:59 -[] LiveReload server is running on port 35729
+2023-01-02 19:04:25,039 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8090 (http) with context path '/usit'
+2023-01-02 19:04:25,039 INFO  DocumentationPluginsBootstrapper:160 -[] Context refreshed
+2023-01-02 19:04:25,040 INFO  DocumentationPluginsBootstrapper:163 -[] Found 1 custom documentation plugin(s)
+2023-01-02 19:04:25,043 INFO  ApiListingReferenceScanner:41 -[] Scanning for api listing references
+2023-01-02 19:04:25,068 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getConsultalntByPageUsingGET_1
+2023-01-02 19:04:25,070 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_1
+2023-01-02 19:04:25,075 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteRequirmentByIDUsingDELETE_1
+2023-01-02 19:04:25,075 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: editRequirmentByIDUsingPOST_1
+2023-01-02 19:04:25,076 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRequirmentByIDUsingGET_1
+2023-01-02 19:04:25,077 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveRequirementUsingPOST_1
+2023-01-02 19:04:25,078 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_1
+2023-01-02 19:04:25,079 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_2
+2023-01-02 19:04:25,080 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_1
+2023-01-02 19:04:25,081 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadMultipleFile2UsingPOST_1
+2023-01-02 19:04:25,082 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_3
+2023-01-02 19:04:25,086 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_1
+2023-01-02 19:04:25,088 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_2
+2023-01-02 19:04:25,089 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_1
+2023-01-02 19:04:25,090 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_2
+2023-01-02 19:04:25,092 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_3
+2023-01-02 19:04:25,093 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_2
+2023-01-02 19:04:25,093 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_2
+2023-01-02 19:04:25,107 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: approveVMSUsingGET_1
+2023-01-02 19:04:25,107 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_4
+2023-01-02 19:04:25,108 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteUsingDELETE_1
+2023-01-02 19:04:25,108 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_3
+2023-01-02 19:04:25,108 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: gateallUsingGET_1
+2023-01-02 19:04:25,108 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getbyIdUsingGET_1
+2023-01-02 19:04:25,109 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveVendorUsingPOST_1
+2023-01-02 19:04:25,109 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_1
+2023-01-02 19:04:25,110 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_1
+2023-01-02 19:04:25,111 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_4
+2023-01-02 19:04:25,111 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_3
+2023-01-02 19:04:25,114 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_4
+2023-01-02 19:04:25,115 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: filterVMSUsingGET_1
+2023-01-02 19:04:25,115 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_5
+2023-01-02 19:04:25,116 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_2
+2023-01-02 19:04:25,118 INFO  StartupInfoLogger:61 -[] Started UsitApplication in 0.88 seconds (JVM running for 8956.972)
+2023-01-02 19:04:25,120 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged
+2023-01-02 19:04:30,850 INFO  DirectJDKLog:173 -[] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-01-02 19:04:30,850 INFO  FrameworkServlet:525 -[] Initializing Servlet 'dispatcherServlet'
+2023-01-02 19:04:30,851 INFO  FrameworkServlet:547 -[] Completed initialization in 1 ms
+2023-01-02 19:04:30,859 INFO  RecSubmissionController:57 -[] !!! inside class :RecSubmissionController, !! method : saveRequirement
+2023-01-02 19:04:34,859 INFO  RecSubmissionController:83 -[] !!! inside class :RecSubmissionController, !! method : getAllSubmission
+2023-01-02 19:05:23,500 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213 -[] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-01-02 19:05:23,508 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2023-01-02 19:05:23,508 INFO  DirectJDKLog:173 -[] Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-01-02 19:05:23,512 INFO  AbstractEntityManagerFactoryBean:651 -[] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:05:23,513 INFO  HikariDataSource:350 -[] HikariPool-47 - Shutdown initiated...
+2023-01-02 19:05:23,515 INFO  HikariDataSource:352 -[] HikariPool-47 - Shutdown completed.
+2023-01-02 19:05:23,607 INFO  UsitApplication:15 -[] UsitApplication.main()
+2023-01-02 19:05:23,625 INFO  StartupInfoLogger:55 -[] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 13304 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2023-01-02 19:05:23,625 INFO  SpringApplication:634 -[] No active profile set, falling back to 1 default profile: "default"
+2023-01-02 19:05:23,770 INFO  RepositoryConfigurationDelegate:132 -[] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 19:05:23,800 INFO  RepositoryConfigurationDelegate:201 -[] Finished Spring Data repository scanning in 29 ms. Found 22 JPA repository interfaces.
+2023-01-02 19:05:23,845 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8090 (http)
+2023-01-02 19:05:23,845 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2023-01-02 19:05:23,845 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-02 19:05:23,860 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2023-01-02 19:05:23,860 INFO  ServletWebServerApplicationContext:292 -[] Root WebApplicationContext: initialization completed in 234 ms
+2023-01-02 19:05:23,876 INFO  LogHelper:31 -[] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 19:05:23,878 INFO  HikariDataSource:110 -[] HikariPool-48 - Starting...
+2023-01-02 19:05:23,885 INFO  HikariDataSource:123 -[] HikariPool-48 - Start completed.
+2023-01-02 19:05:23,886 INFO  Dialect:175 -[] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 19:05:24,066 INFO  JtaPlatformInitiator:52 -[] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 19:05:24,066 INFO  AbstractEntityManagerFactoryBean:437 -[] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:05:24,321 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 -[] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 19:05:24,337 INFO  PropertySourcedRequestMappingHandlerMapping:69 -[] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-02 19:05:24,351 INFO  OptionalLiveReloadServer:59 -[] LiveReload server is running on port 35729
+2023-01-02 19:05:24,372 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8090 (http) with context path '/usit'
+2023-01-02 19:05:24,373 INFO  DocumentationPluginsBootstrapper:160 -[] Context refreshed
+2023-01-02 19:05:24,373 INFO  DocumentationPluginsBootstrapper:163 -[] Found 1 custom documentation plugin(s)
+2023-01-02 19:05:24,376 INFO  ApiListingReferenceScanner:41 -[] Scanning for api listing references
+2023-01-02 19:05:24,400 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getConsultalntByPageUsingGET_1
+2023-01-02 19:05:24,402 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_1
+2023-01-02 19:05:24,407 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteRequirmentByIDUsingDELETE_1
+2023-01-02 19:05:24,408 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: editRequirmentByIDUsingPOST_1
+2023-01-02 19:05:24,408 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRequirmentByIDUsingGET_1
+2023-01-02 19:05:24,409 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveRequirementUsingPOST_1
+2023-01-02 19:05:24,410 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_1
+2023-01-02 19:05:24,411 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_2
+2023-01-02 19:05:24,413 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_1
+2023-01-02 19:05:24,414 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadMultipleFile2UsingPOST_1
+2023-01-02 19:05:24,415 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_3
+2023-01-02 19:05:24,428 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_1
+2023-01-02 19:05:24,430 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_2
+2023-01-02 19:05:24,433 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_1
+2023-01-02 19:05:24,433 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_2
+2023-01-02 19:05:24,436 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_3
+2023-01-02 19:05:24,437 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_2
+2023-01-02 19:05:24,437 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_2
+2023-01-02 19:05:24,439 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: approveVMSUsingGET_1
+2023-01-02 19:05:24,439 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_4
+2023-01-02 19:05:24,440 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteUsingDELETE_1
+2023-01-02 19:05:24,440 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_3
+2023-01-02 19:05:24,441 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: gateallUsingGET_1
+2023-01-02 19:05:24,441 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getbyIdUsingGET_1
+2023-01-02 19:05:24,441 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveVendorUsingPOST_1
+2023-01-02 19:05:24,442 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_1
+2023-01-02 19:05:24,442 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_1
+2023-01-02 19:05:24,443 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_4
+2023-01-02 19:05:24,443 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_3
+2023-01-02 19:05:24,447 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_4
+2023-01-02 19:05:24,447 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: filterVMSUsingGET_1
+2023-01-02 19:05:24,448 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_5
+2023-01-02 19:05:24,449 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_2
+2023-01-02 19:05:24,451 INFO  StartupInfoLogger:61 -[] Started UsitApplication in 0.839 seconds (JVM running for 9016.304)
+2023-01-02 19:05:24,452 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged
+2023-01-02 19:05:38,292 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213 -[] Restarting due to 4 class path changes (0 additions, 0 deletions, 4 modifications)
+2023-01-02 19:05:38,311 INFO  DirectJDKLog:173 -[] Stopping service [Tomcat]
+2023-01-02 19:05:38,326 INFO  AbstractEntityManagerFactoryBean:651 -[] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:05:38,327 INFO  HikariDataSource:350 -[] HikariPool-48 - Shutdown initiated...
+2023-01-02 19:05:38,331 INFO  HikariDataSource:352 -[] HikariPool-48 - Shutdown completed.
+2023-01-02 19:05:38,434 INFO  UsitApplication:15 -[] UsitApplication.main()
+2023-01-02 19:05:38,450 INFO  StartupInfoLogger:55 -[] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 13304 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2023-01-02 19:05:38,450 INFO  SpringApplication:634 -[] No active profile set, falling back to 1 default profile: "default"
+2023-01-02 19:05:38,600 INFO  RepositoryConfigurationDelegate:132 -[] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-01-02 19:05:38,634 INFO  RepositoryConfigurationDelegate:201 -[] Finished Spring Data repository scanning in 34 ms. Found 22 JPA repository interfaces.
+2023-01-02 19:05:38,692 INFO  TomcatWebServer:108 -[] Tomcat initialized with port(s): 8090 (http)
+2023-01-02 19:05:38,693 INFO  DirectJDKLog:173 -[] Starting service [Tomcat]
+2023-01-02 19:05:38,693 INFO  DirectJDKLog:173 -[] Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-01-02 19:05:38,708 INFO  DirectJDKLog:173 -[] Initializing Spring embedded WebApplicationContext
+2023-01-02 19:05:38,709 INFO  ServletWebServerApplicationContext:292 -[] Root WebApplicationContext: initialization completed in 258 ms
+2023-01-02 19:05:38,726 INFO  LogHelper:31 -[] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-01-02 19:05:38,729 INFO  HikariDataSource:110 -[] HikariPool-49 - Starting...
+2023-01-02 19:05:38,736 INFO  HikariDataSource:123 -[] HikariPool-49 - Start completed.
+2023-01-02 19:05:38,736 INFO  Dialect:175 -[] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-01-02 19:05:38,897 INFO  JtaPlatformInitiator:52 -[] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-01-02 19:05:38,898 INFO  AbstractEntityManagerFactoryBean:437 -[] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-01-02 19:05:39,161 WARN  JpaBaseConfiguration$JpaWebConfiguration:219 -[] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-01-02 19:05:39,175 INFO  PropertySourcedRequestMappingHandlerMapping:69 -[] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-01-02 19:05:39,189 INFO  OptionalLiveReloadServer:59 -[] LiveReload server is running on port 35729
+2023-01-02 19:05:39,207 INFO  TomcatWebServer:220 -[] Tomcat started on port(s): 8090 (http) with context path '/usit'
+2023-01-02 19:05:39,207 INFO  DocumentationPluginsBootstrapper:160 -[] Context refreshed
+2023-01-02 19:05:39,207 INFO  DocumentationPluginsBootstrapper:163 -[] Found 1 custom documentation plugin(s)
+2023-01-02 19:05:39,210 INFO  ApiListingReferenceScanner:41 -[] Scanning for api listing references
+2023-01-02 19:05:39,233 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getConsultalntByPageUsingGET_1
+2023-01-02 19:05:39,235 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_1
+2023-01-02 19:05:39,240 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteRequirmentByIDUsingDELETE_1
+2023-01-02 19:05:39,240 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: editRequirmentByIDUsingPOST_1
+2023-01-02 19:05:39,241 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getRequirmentByIDUsingGET_1
+2023-01-02 19:05:39,242 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveRequirementUsingPOST_1
+2023-01-02 19:05:39,243 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_1
+2023-01-02 19:05:39,244 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_2
+2023-01-02 19:05:39,245 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_1
+2023-01-02 19:05:39,247 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadMultipleFile2UsingPOST_1
+2023-01-02 19:05:39,248 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_3
+2023-01-02 19:05:39,262 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_1
+2023-01-02 19:05:39,265 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_2
+2023-01-02 19:05:39,266 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_1
+2023-01-02 19:05:39,266 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_2
+2023-01-02 19:05:39,269 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_3
+2023-01-02 19:05:39,271 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_2
+2023-01-02 19:05:39,271 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getAllRolesUsingGET_2
+2023-01-02 19:05:39,273 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: approveVMSUsingGET_1
+2023-01-02 19:05:39,274 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingGET_4
+2023-01-02 19:05:39,274 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: deleteUsingDELETE_1
+2023-01-02 19:05:39,275 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_3
+2023-01-02 19:05:39,275 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: gateallUsingGET_1
+2023-01-02 19:05:39,276 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getbyIdUsingGET_1
+2023-01-02 19:05:39,276 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: saveVendorUsingPOST_1
+2023-01-02 19:05:39,277 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_1
+2023-01-02 19:05:39,277 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: uploadexcelUsingPOST_1
+2023-01-02 19:05:39,278 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_4
+2023-01-02 19:05:39,279 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: getCitiesUsingGET_3
+2023-01-02 19:05:39,282 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: changeStatusUsingPATCH_4
+2023-01-02 19:05:39,283 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: filterVMSUsingGET_1
+2023-01-02 19:05:39,283 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: findPaginatedUsingGET_5
+2023-01-02 19:05:39,284 INFO  CachingOperationNameGenerator:40 -[] Generating unique operation named: updateVMSUsingPUT_2
+2023-01-02 19:05:39,287 INFO  StartupInfoLogger:61 -[] Started UsitApplication in 0.848 seconds (JVM running for 9031.14)
+2023-01-02 19:05:39,288 INFO  ConditionEvaluationDeltaLoggingListener:63 -[] Condition evaluation unchanged

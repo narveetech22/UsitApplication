@@ -1,0 +1,31 @@
+2022-12-20 10:11:04,391 INFO  StartupInfoLogger:55 - [] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 4956 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2022-12-20 10:11:04,391 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-20 10:11:04,391 INFO  SpringApplication:634 - [] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 10:11:05,476 INFO  StartupInfoLogger:61 - [] Started UsitApplication in 1.135 seconds (JVM running for 774.057)
+2022-12-20 10:11:31,579 INFO  UsitApplication:15 - [] UsitApplication.main()
+2022-12-20 10:11:31,604 INFO  StartupInfoLogger:55 - [] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 4956 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2022-12-20 10:11:31,607 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-20 10:11:31,608 INFO  SpringApplication:634 - [] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 10:11:32,402 INFO  StartupInfoLogger:61 - [] Started UsitApplication in 0.82 seconds (JVM running for 800.984)
+2022-12-20 10:12:30,392 INFO  UsitApplication:15 - [] UsitApplication.main()
+2022-12-20 10:12:30,416 INFO  StartupInfoLogger:55 - [] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 4956 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2022-12-20 10:12:30,416 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-20 10:12:30,416 INFO  SpringApplication:634 - [] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 10:12:31,156 INFO  StartupInfoLogger:61 - [] Started UsitApplication in 0.761 seconds (JVM running for 859.737)
+2022-12-20 10:12:51,150 INFO  UsitApplication:15 - [] UsitApplication.main()
+2022-12-20 10:12:51,175 INFO  StartupInfoLogger:55 - [] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 4956 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2022-12-20 10:12:51,175 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-20 10:12:51,175 INFO  SpringApplication:634 - [] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 10:12:51,947 INFO  StartupInfoLogger:61 - [] Started UsitApplication in 0.794 seconds (JVM running for 880.528)
+2022-12-20 10:14:39,243 INFO  VendorManagementController:165 - [] VMSController.findPaginated()
+2022-12-20 10:14:39,248 INFO  VendorServiceimpl:75 - [] VmsServiceImpl.findPaginated()
+2022-12-20 10:14:46,872 INFO  VendorManagementController:165 - [] VMSController.findPaginated()
+2022-12-20 10:14:46,873 INFO  VendorServiceimpl:75 - [] VmsServiceImpl.findPaginated()
+2022-12-20 10:14:53,725 INFO  VendorManagementController:83 - [] VendorManagementController.gateall()
+2022-12-20 10:17:04,409 INFO  UsitApplication:15 - [] UsitApplication.main()
+2022-12-20 10:17:04,591 INFO  UsitApplication:15 - [] UsitApplication.main()
+2022-12-20 10:17:04,913 INFO  StartupInfoLogger:55 - [] Starting UsitApplication using Java 17.0.2 on DESKTOP-08PSRH1 with PID 19900 (D:\eclipse workspace\UsitApplication\target\classes started by admin in D:\eclipse workspace\UsitApplication)
+2022-12-20 10:17:04,914 DEBUG StartupInfoLogger:56 - [] Running with Spring Boot v2.7.5, Spring v5.3.23
+2022-12-20 10:17:04,914 INFO  SpringApplication:634 - [] No active profile set, falling back to 1 default profile: "default"
+2022-12-20 10:17:10,378 INFO  StartupInfoLogger:61 - [] Started UsitApplication in 5.782 seconds (JVM running for 6.432)
+2022-12-20 10:20:38,267 INFO  UsitApplication:15 - [] UsitApplication.main()
